@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Prociono|Purple+Purse');
+/*
+#
+# MY CSS STYLE
+#
+*/
+
+body{
+	font-family: 'Catamaran', sans-serif;
+	color: white;
+}
+
+.header{
+	height: 56em;
+	background-color: #373a3c;
+}
+
+.header h1{
+	margin: 10% 0 0 0;
+}
+
+.header hr{
+	margin: 10% 0 5% 0;
+}
+
+.header h2{
+	font-family: 'Purple Purse', cursive;
+	text-transform: uppercase;
+	margin: 20% 0 0 0;
+}
+
+.header progress{
+	margin: 5% 0 0 0;
+}
+
+nav{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Prociono', serif;
+}
+nav ul li{
+	border: 5px dotted #373a3c;
+	padding: 1%;
+	width: 10em;
+}
+
+footer{
+	position: relative !important;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	margin: 5% 0 0 0;
+}
+footer a{
+	font-family: 'Prociono', serif;
+}
+
+.pull-right{
+	float: right;
+}
